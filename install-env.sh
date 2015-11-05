@@ -10,6 +10,8 @@ mv ./MP1-APP/css /var/www/html/css
 mv ./MP1-APP/*.html /var/www/html
 mv ./MP1-APP/*.php /var/www/html
 
+sudo rm index.html
+
 curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
 sudo php composer.phar require aws/aws-sdk-php &> /tmp/runcomposer.txt
