@@ -3,6 +3,7 @@
 sudo apt-get update -y
 sudo apt-get install -y  apache2 git php5 php5-curl mysql-client curl php5-mysql 
 sudo apt-get install php5 php5-imagick
+sudo service apache2 restart
 
 git clone https://github.com/mhana1/MP1-APP.git
 
